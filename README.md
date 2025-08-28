@@ -31,6 +31,7 @@ public class Example {
 Declared inside a class but outside methods.
 Each object gets its own copy.
 
+
 public class Student {
     // ✅ Instance Variables
     String name;   // inside class, but outside methods
