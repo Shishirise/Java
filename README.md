@@ -28,17 +28,6 @@ public class Example {
 ```
 ## 2.Instance Variables
 ```java
-Declared inside the class but outside any method
-Each object of Main gets its own copy
-
-public class Main{
-     int x;
-     String  name; 
-    public static void main(String[]args){
-      
-    }
-}
-
 Declared inside the method main()
 Can only be used inside main()
 Must be initialized before use
