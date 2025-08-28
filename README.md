@@ -13,9 +13,11 @@ String name = "Bahubali";
 ```
 # Types of Variables in Java
 ## 1. Local Variables
+```
 Declared inside a method.
 Only accessible within that method.
 Must be initialized before use
+```
 ```java
 public class Example {
     public static void main(String[] args) {
