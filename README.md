@@ -33,7 +33,7 @@ Each object gets its own copy.
 
 
 public class Student {
-    // ✅ Instance Variables
+    // Instance Variables
     String name;   // inside class, but outside methods
     int age;
 
