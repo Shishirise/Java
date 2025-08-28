@@ -5,7 +5,7 @@ WORA (Write Once, Run Anywhere)
 ```
 dataType variableName = value;
 ```
-```
+```java
 Example:
 int age = 21;
 double price = 19.99;
