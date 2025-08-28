@@ -25,6 +25,10 @@ public class Example {
         System.out.println(x);
     }
 }
-
+```
+## 2.Instance Variables
+```java
+Declared inside a class but outside methods.
+Each object gets its own copy.
 ```
 
