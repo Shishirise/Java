@@ -16,7 +16,9 @@ String name = "Bahubali";
 ```java
 Declared inside a method.
 Only accessible within that method.
-Must be initialized before use
+Must be initialized before use.
+
+
 public class Example {
     public static void main(String[] args) {
         int x = 10; // local variable
