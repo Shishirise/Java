@@ -46,8 +46,7 @@ public class Main {
             
             double discriminant = b*b - 4*a*c;
             double x1, x2;
-            
-            
+
            // Use if statement to check if the discriminant is less than 0
            // Else, calculate the both real solutions
            
