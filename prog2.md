@@ -94,11 +94,11 @@ public class Complexnum {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Enter real and imaginary parts of complex number one: ");
+        System.out.print("Enter real and imaginary parts of complex number one(C1): ");
         double r1 = in.nextDouble();
         double i1 = in.nextDouble();
 
-        System.out.print("Enter real and imaginary parts of complex number two: ");
+        System.out.print("Enter real and imaginary parts of complex number two(C2): ");
         double r2 = in.nextDouble();
         double i2 = in.nextDouble();
         
@@ -109,7 +109,7 @@ public class Complexnum {
         System.out.print("Enter the scalar to multiply by: ");
         double scalarValue = in.nextDouble();
 
-       System.out.println("=======================================================");
+       System.out.println("---------------------------------------------------------------------------------");
        System.out.println("\n");
        
        
@@ -119,21 +119,25 @@ public class Complexnum {
         Complexnum sum = C1.add(C2);
         System.out.print("Sum of the two complex number (C1+C2): ");
         sum.print();
+        System.out.println("\n");
 
-System.out.println("------------------------------------------------------");
-
+        
         Complexnum subtract = C1.subtract(C2);
         System.out.print("Difference of the two complex number (C1-C2): ");
         subtract.print();
-System.out.println("------------------------------------------------------");
+        System.out.println("\n");
+        
+
         Complexnum multiply = C1.multiply(C2);
         System.out.print("Product of the two complex number (C1*C2): ");
         multiply.print();
-System.out.println("------------------------------------------------------");
+        System.out.println("\n");   
+        
         Complexnum divide = C1.divide(C2);
         System.out.print("Division of the two complex number (C1/C2): ");
         divide.print();
-System.out.println("------------------------------------------------------");
+        System.out.println("\n");
+        
         Complexnum scalarResult;
         if (choice == 1) {
             scalarResult = C1.multiplyScalar(scalarValue);
@@ -144,12 +148,15 @@ System.out.println("------------------------------------------------------");
         }
         scalarResult.print();
         
-System.out.println("------------------------------------------------------");
+
         // Copy test
         C1 = new Complexnum(C2);
-        System.out.print("After copying the values of C2 into a new Complexnum object, C1 now becomes: ");
+        
+        System.out.println("\n");
+        System.out.print("After copying the values of C2 into a new Complexnum object, C1: ");
         C1.print();
     }
 }
+
 
 ```
